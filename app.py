@@ -42,6 +42,7 @@ def main():
         file = open("output.mmd", "w")
         file.write(mermaid_code)
         file.close()
+        subprocess.run("npm i", shell=True)
         command = "mmdc -i output.mmd -o output.svg -t dark -b transparent" 
         subprocess.run(command, shell=True)
         
