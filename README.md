@@ -5,7 +5,7 @@
 ### Prerequisites
 
 - Python 3.x installed (preferably Python 3.6 or later)
-- Node.js and npm installed (for frontend dependencies)
+- Node.js and npm installed
 
 ## Setup
 
